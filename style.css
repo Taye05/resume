@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+span {
+  color: palevioletred;
+}
+
+main {
+  text-align: center;
+}
+
+.hi {
+  margin-bottom: 10%;
+}
+
+.hey {
+  margin: 10px;
+}
+
+h1 {
+  background-color: rgb(240, 203, 209);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 120px;
+  }
+}
